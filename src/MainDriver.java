@@ -8,6 +8,16 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
 import java.util.stream.Stream;
 
+/*
+ * Name: Daniel Santana Medina
+ * Description:
+ *       I tried using the fork join framework to compare
+ *       multiple threads vs main thread in IO reading.
+ *       Not much of a time difference using multiple threads
+ *       may be due to bottleneck of the IO.
+ *
+ */
+
 public class MainDriver {
     public static void main(String[] args) throws IOException {
         File file = new File("DeclarationIndependence.txt");
