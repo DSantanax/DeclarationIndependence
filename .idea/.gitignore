@@ -1,0 +1,10 @@
+# Default ignored files
+/workspace.xml
+.idea/
+/ReverseWords.iml
+/misc.xml
+/../out/production/ReverseWords/
+/../ReverseWords.iml
+/inspectionProfiles/profiles_settings.xml
+/modules.xml
+/vcs.xml
