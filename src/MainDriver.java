@@ -76,7 +76,6 @@ class ReadText extends RecursiveAction {
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
 //            BufferedWriter bw = new BufferedWriter(new FileWriter(fileAdd, true));
-            //TODO: get line number to start and to end and insert at that location
             String line;
             //read lines
 
@@ -97,10 +96,10 @@ class ReadText extends RecursiveAction {
                     for (int i = words.length - 1; i >= 0; i--) {
                         stringBuild.append(words[i]).append(" ");
                     }
+                    //Use an array or something to write to that index then return
+                    // write at location start to endLine
                     fileAdd[start] = stringBuild.toString();
                     start++;
-                    //TODO: write at location start to endLine
-                    //Use an array or something to write to that index then return
                 }
             }
 
