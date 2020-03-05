@@ -14,7 +14,7 @@ import java.util.stream.Stream;
  *       I tried using the fork join framework to compare
  *       multiple threads vs main thread in IO reading.
  *       Not much of a time difference using multiple threads
- *       may be due to bottleneck of the IO.
+ *       may be due to bottleneck of the IO on the machine.
  *
  */
 
